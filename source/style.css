@@ -85,6 +85,10 @@ a {
   }
 }
 
+.btb {
+  color: #FF6464;
+}
+
 body {
   font-family: "Heebo";
   font-style: normal;
@@ -246,8 +250,6 @@ body {
   align-items: center;
   margin: 30px 0px 15px 0px;
 }
-.featured-works__image {
-}
 .featured-works__item {
   width: 594px;
   margin-left: 40px;
@@ -280,10 +282,8 @@ body {
   color: #8695a4;
 }
 
-.info__info {
-}
+/* =========footer=========== */
 
-/* footer */
 .footer__social {
   display: flex;
   padding-top: 135px;
@@ -305,3 +305,37 @@ body {
   text-align: center;
   color: #21243d;
 }
+
+/* blog */
+  h1 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+  }
+  .blog {
+    margin-top: 133px;
+  }
+
+  .blog__title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+    padding-top: 55px;
+  }
+
+  .blog__info {
+    padding-top: 16px;
+
+  }
+
+  .blog__text {
+    padding: 16px 0px 29px 0px;
+    width: 682px;
+  }
+
+  .blog__line {
+    border: 1px solid #e0e0e0;
+    width: 681px;
+  }
